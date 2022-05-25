@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- WEB FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>canabey mpls</title>
+</head>
+
+<body>
+    <header>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                        <img src="/img/canabey.png" class="img-fluid" alt=" logo" />
+                    </div>
+
+                    <div class="col align-self-center">
+                        <h1>canabey mpls</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </header>
+<!-- navbar with 3 pages -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/canabey.png" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="siteNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="#"> Menu</a>
+                    </li> -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Contact</li>
+                </ol>
+                <h2>Contact Us</h2>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4">
+                <h4>Our Address</h4>
+                <hr>
+                <address>
+                    312 W Lake St, Suite 2947<br />
+                    Minneapolis, MN 55408<br />
+                    U.S.A
+                </address>
+            </div>
+            <div class="col">
+                <a role="button" class="btn btn-link" href="tel:+1(612)353-4303"><i class="fa fa-phone"></i>
+                    612-353-4303</a><br />
+                <a role="button" class="btn btn-link" href="mailto:canabeyrandb@gmail.com"><i
+                        class="fa fa-envelope-o"></i>
+                    canabeyrandb@gmail.com</a>
+            </div>
+        </div>
+<!-- FORM #2 -->
+        <div class="row row-content">
+            <div class="col-12">
+                <h2>Send us your Feedback</h2>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName"
+                                placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName"
+                                placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode"
+                                placeholder="Area code" />
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row"> <!-- DROP DOWN MENU-->
+                        <label for="firstName" class="col-md-2 col-form-label">Contact Prefrence</label>
+                        <div class="col-md-10 form-check">
+                            <select class="custom-select">
+                                <option selected>Choose...</option>
+                                <option class="form-control" id="contactEmail" name="contactPrefrence" value="email"> By
+                                    Email</option>
+                                <option class="form-control" id="contactCall" name="contactPrefrence" value="call"> By
+                                    Phone Call</option>
+                                <option class="form-control" id="contactText" name="contactPrefrence" value="text"> By
+                                    Text</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <label attribute: for=" avatar"> Have a picture to share? Upload here!</label> <br>
+                        <input type="file" accept="image/*" onchange="loadFile(event)" id="avatar" name="avatar" />
+                    </div>
+                    <p style="padding-top: 1rem;"> Image Preview: </p>
+                    <img id="preview" width="400">
+
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+                . . .
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <!-- <li><a href="#">Menu</a></li> -->
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-icon btn-google" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+12345556789"><i class="fa fa-phone"></i>
+                        1-234-555-6789</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:canabey@mpls.co"><i class="fa fa-envelope-o"></i>
+                        canabey@mpls.co</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
