@@ -1,8 +1,12 @@
 # CanabeyBootstrapSite
 Tech List
+
 -HTML
+
 -CSS
+
 -JavaScript
+
 -Bootstrap
 
 Link to website:
